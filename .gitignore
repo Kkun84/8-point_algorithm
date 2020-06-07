@@ -4,5 +4,7 @@ __pycache__
 
 images/*
 
-outputs/
-multirun/
+*.jpg
+*.jpeg
+*.png
+*.ping
