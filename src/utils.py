@@ -6,7 +6,7 @@ import matplotlib.colors
 
 
 logger = getLogger(__name__)
-print(__name__)
+
 
 def get_colors(n):
     if n > 20:
