@@ -1,0 +1,8 @@
+.vscode/
+.devcontainer/
+__pycache__
+
+images/*
+
+outputs/
+multirun/
