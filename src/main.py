@@ -37,6 +37,7 @@ def main(cfg):
     else:
         F = utils.solve_F(points_list)
     logger.info(f"\n{F=}")
+    logger.info(f"{np.linalg.norm(F)=}")
     logger.info(f"{np.linalg.det(F)=}")
     logger.info(f"{np.linalg.det(F[1:, 1:])=}")
     logger.info(f"{np.linalg.det(F[1:, :-1])=}")
